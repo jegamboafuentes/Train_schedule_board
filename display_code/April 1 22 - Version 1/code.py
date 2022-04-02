@@ -37,23 +37,25 @@ def get_arrival_in_minutes_from_now(now, date_str):
 def get_arrival_times():
     now = datetime.now()
     print(now)
+    print("Data source: "+DATA_SOURCE)
     stop_trains =  network.fetch_data(DATA_SOURCE)
     res = json.loads(stop_trains)
     try:
         train1 = res["data"][0]["attributes"]["departure_time"]
         train1_min = get_arrival_in_minutes_from_now(now, train1) - 1
     except:
-        train1=-999
+        train1_min=-999
     try:
         train2 = res["data"][1]["attributes"]["departure_time"]
         train2_min = get_arrival_in_minutes_from_now(now, train2) - 1
     except:
-        train2=-888
+        train2_min=-888
     try:
         train3 = res["data"][2]["attributes"]["departure_time"]
         train3_min = get_arrival_in_minutes_from_now(now, train3) - 1 
     except:
-        train3=-777
+        train3_min=-777
+
     return train1_min,train2_min,train3_min
 
 def text_formating(trainMinutes):
