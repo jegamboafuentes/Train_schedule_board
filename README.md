@@ -5,4 +5,17 @@
 
  [For details on this project](https://jegamboafuentes.medium.com/i-created-my-own-subway-arrival-board-with-real-time-data-to-dont-miss-my-train-anymore-28bfded312c0?source=friends_link&sk=a229cfebc19bc9f1874ba3a0441f0620)
 
+ [Current stable code version](https://github.com/jegamboafuentes/Train_schedule_board/tree/main/display_code/April%201%2022%20-%20Version%201)
+
+
  ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/ezgif-5-6a7168620f.gif?raw=true)
+
+ ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/IMG_1926%202.JPG?raw=true)
+
+ ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/IMG_1927%202.JPG?raw=true)
+
+ ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/IMG_1928%202.JPG?raw=true)
+
+ ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/IMG_1925%203.JPG?raw=true)
+
+ ![alt text](https://github.com/jegamboafuentes/Train_schedule_board/blob/main/media/ezgif.com-gif-maker.gif?raw=true)
