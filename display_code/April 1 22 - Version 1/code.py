@@ -21,12 +21,12 @@ BOARD_TITLE = 'Bowdoin'
 STOP_ID = 'place-wondl'
 DIRECTION_ID = '0'
 ROUTE = 'Blue'
+BACKGROUND_IMAGE = 'TBlue-dashboard.bmp'
 PAGE_LIMIT = '3'
 DATA_SOURCE = 'https://api-v3.mbta.com/predictions?filter%5Bstop%5D='+STOP_ID+'&filter%5Bdirection_id%5D='+DIRECTION_ID+'&filter%5Broute%5D='+ROUTE+'&page%5Blimit%5D='+PAGE_LIMIT+'&sort=departure_time'
 UPDATE_DELAY = 15
 SYNC_TIME_DELAY = 30
 MINIMUM_MINUTES_DISPLAY = 9
-BACKGROUND_IMAGE = 'Tblue-dashboard.bmp'
 ERROR_RESET_THRESHOLD = 3
 #-*-/-*-\-*--*-/-*-\-*--*-/-*-\-*--*-/-*-\-*--*-/-*-\-*--*-/-*-\-*--*-/-*-\-*--*-/-*-\-*-
 
