@@ -118,12 +118,16 @@ def update_text(t1, t2, t3):
 
     display.show(group)
     
-def update_text2(t1, t2, t3):
-    #print("in update_text2")
-    text_lines[2].text = t1#"hola"
-    text_lines[3].text = t2
-    text_lines[4].text = t3
+def update_text2(*args):
+    #text_lines[2].text = t1 deleate this if all works fine
+    #text_lines[3].text = t2 this
+    #text_lines[4].text = t3 this
 
+    #display.show(group) and this
+    text_lines[2].text = args[0] if len(args) > 0 else "***"
+    text_lines[3].text = args[1] if len(args) > 1 else "***"
+    text_lines[4].text = args[2] if len(args) > 2 else "***"
+    
     display.show(group)
 
 # --- Display setup ---
